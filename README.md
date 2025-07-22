@@ -1,6 +1,6 @@
 # Nuxt Portfolio
 
-This project is my portfolio made with Nuxt 3 and Tailwindcss.
+This project is my portfolio made with Nuxt 4 and Tailwindcss.
 
 ## Specs of the project
 
@@ -9,7 +9,7 @@ This project is my portfolio made with Nuxt 3 and Tailwindcss.
 - Intro section
 - Services section
 - Projects section
-- About me section
+- Skills section
 - Contact section
 - Simple footer
 
@@ -31,7 +31,7 @@ pnpm run dev
 ## Made with
 
 - [Vue.js](https://vuejs.org/) - JavaScript framework (Front-End)
-- [Nuxt 3](https://nuxt.com/) - The Progressive Web Framework
+- [Nuxt 4](https://nuxt.com/) - The Progressive Web Framework
 - [Pinia](https://pinia.vuejs.org/) - Store management for vue.js
 - [Visual Studio Code](https://code.visualstudio.com/) - Code editor
 

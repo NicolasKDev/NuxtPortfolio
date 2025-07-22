@@ -8,5 +8,15 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
+    '@nuxt/eslint',
   ],
+  components: [
+    { path: '~/components', pathPrefix: false },
+    { path: '~/components/Sections', pathPrefix: true, prefix: 'Sections' },
+  ],
+  css: ['~/assets/css/tailwind.css'],
+  ui: {
+    colorMode: true,
+  },
+  ssr: true,
 })

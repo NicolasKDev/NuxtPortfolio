@@ -12,23 +12,32 @@
     "lint": "eslint --ext .js,.ts,.vue --fix ."
   },
   "dependencies": {
+    "@nuxt/eslint-config": "^1.6.0",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^1.15.0",
     "@nuxt/ui": "^3.2.0",
+    "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "7.0.0-beta.0",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-config-vue": "^2.0.2",
-    "eslint-plugin-prettier": "^5.5.1",
-    "nuxt": "^3.17.5",
+    "@oxc-parser/binding-linux-x64-gnu": "^0.75.0",
+    "nuxt": "^4.0.0",
     "typescript-eslint": "^8.35.1",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
   "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184",
   "devDependencies": {
-    "eslint": "^9",
+    "@iconify-json/heroicons": "^1.2.2",
+    "@iconify-json/simple-icons": "^1.2.43",
+    "@nuxt/eslint": "^1.6.0",
+    "@nuxtjs/tailwindcss": "7.0.0-beta.0",
+    "@types/eslint": "^9.6.1",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
     "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
     "vitest": "^3.2.4"
   }
 }
