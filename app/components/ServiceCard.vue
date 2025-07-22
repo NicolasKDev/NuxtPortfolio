@@ -4,7 +4,12 @@
   >
     <template #header>
       <div class="flex items-center gap-3 p-6 pb-0">
-        <div :class="['w-12 h-12 rounded-lg flex items-center justify-center', props.iconBg]">
+        <div
+          :class="[
+            'min-w-12 min-h-12 w-12 h-12 rounded-lg flex items-center justify-center',
+            props.iconBg,
+          ]"
+        >
           <UIcon :name="props.icon" :class="['w-6 h-6', props.iconColor]" />
         </div>
         <h3 class="text-xl font-bold text-primary">{{ props.title }}</h3>
