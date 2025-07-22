@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full rounded-t-xl bg-background/80 shadow-lg text-center p-12 pt-0 md:pt-12 min-h-screen flex flex-col justify-center items-center border-t border-border"
+    class="w-full rounded-t-xl bg-background/80 shadow-lg text-center pb-12 px-12 pt-2 md:pt-12 min-h-screen flex flex-col justify-center items-center border-t border-border"
   >
     <div>
       <div class="flex-1 mx-auto mb-4 fade-in-up items-center">
@@ -15,13 +15,15 @@
         <h1 class="text-4xl md:text-6xl text-primary font-bold mb-4">
           Hey ! Je suis <span class="font-bold">Nicolas</span>
         </h1>
-        <p class="text-lg md:text-2xl mb-2">
-          Développeur fullstack en constante évolution avec plus de 8 ans d'expérience côté backend.
+        <p class="text-lg md:text-2xl mb-4">
+          Développeur fullstack en constante évolution avec plus de 8 ans d'expérience
+          professionnelle en développement.
         </p>
-        <p class="mb-2 md:text-lg">
-          Je conçois des applis web évolutives et maintenables qui répondent à vos besoins !
+        <p class="mb-4 md:text-xl">
+          Je conçois des applis web évolutives et maintenables qui répondent à vos besoins, côté
+          frontend comme backend !
         </p>
-        <p class="md:text-lg">
+        <p class="md:text-xl">
           Disponible pour missions et projets —
           <a
             class="italic underline hover:text-primary transition-colors cursor-pointer"

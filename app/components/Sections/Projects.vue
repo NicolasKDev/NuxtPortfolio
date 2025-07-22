@@ -63,7 +63,7 @@
       description:
         'Le Portfolio sur lequel vous vous trouvez actuellement, développé avec Nuxt et Tailwind CSS.',
       image: '/projects/pictures/portfolio.png',
-      frontend: 'https://github.com/username/portfolio',
+      frontend: 'https://github.com/NicolasKDev/NuxtPortfolio',
       live: 'https://nicolas-kelemen.kelelabs.com',
       technologies: [
         {
