@@ -27,7 +27,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <SectionsHeader />
-    <div class="pt-20">
+    <div class="md:pt-20">
       <SectionsIntro id="intro" />
       <SectionsProjects id="projects" />
       <SectionsServices id="services" />
