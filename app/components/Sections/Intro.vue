@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full rounded-t-xl bg-background/80 shadow-lg text-center p-12 min-h-screen flex flex-col justify-center items-center border-t border-border"
+    class="w-full rounded-t-xl bg-background/80 shadow-lg text-center p-12 pt-0 md:pt-12 min-h-screen flex flex-col justify-center items-center border-t border-border"
   >
     <div>
       <div class="flex-1 mx-auto mb-4 fade-in-up items-center">

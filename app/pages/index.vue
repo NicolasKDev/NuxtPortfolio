@@ -25,7 +25,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-screen bg-background">
     <SectionsHeader />
     <div class="md:pt-20">
       <SectionsIntro id="intro" />
